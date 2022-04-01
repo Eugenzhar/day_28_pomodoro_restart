@@ -1,7 +1,6 @@
 import tkinter
 import math
-# find the color on the colorhunt.co
-
+# find the color on the colorhunt.com
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -76,7 +75,6 @@ window = tkinter.Tk()
 window.title("Pomodoro")
 window.config(padx=20, pady=20, bg=YELLOW)
 
-
 # def say_something(thing):
 #     print(thing)
 #
@@ -108,8 +106,6 @@ left_button.grid(column=0, row=2)
 
 right_button = tkinter.Button(text="reset", highlightthickness=0, command=reset_timer)
 right_button.grid(column=2, row=2)
-
-
 
 
 window.mainloop()
